@@ -1,0 +1,17 @@
+package com.springsecurity.pcshop.peripherals.entity;
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import lombok.*;
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class HardDisk extends Product {
+    @Column(name = "memory_type", nullable = false)
+    private String memoryType;
+    @Column(name = "disc_capacity", nullable = false)
+    private int diskCapacity;
+}
