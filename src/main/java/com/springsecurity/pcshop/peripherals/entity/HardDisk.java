@@ -9,6 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+// to jest klasa HardDisk Andrzeja
 public class HardDisk extends Product {
     @Column(name = "memory_type", nullable = false)
     private String memoryType;
