@@ -1,6 +1,6 @@
-package com.springsecurity.pcshop.Peripherals.Entity;
+package com.springsecurity.pcshop.peripherals.entity;
 
-import com.springsecurity.pcshop.Peripherals.Entity.Product;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Psu extends Product {
+public class PSU extends Product {
     @Column(nullable = false)
     private int brand;
     @Column(name = "power_output", nullable = false)

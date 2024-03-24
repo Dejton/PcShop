@@ -1,6 +1,6 @@
-package com.springsecurity.pcshop.Peripherals.Entity;
+package com.springsecurity.pcshop.peripherals.entity;
 
-import com.springsecurity.pcshop.Peripherals.Entity.Product;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Ram extends Product {
+public class RAM extends Product {
     @Column(nullable = false)
     private int size;
     private int ddr;
