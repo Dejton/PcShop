@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+//klasa Patryka
 public class HardDisc extends Product {
     @Column(name = "memory_type", nullable = false)
     private String memoryType;
