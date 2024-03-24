@@ -1,6 +1,6 @@
-package com.springsecurity.pcshop.Peripherals.Repository;
+package com.springsecurity.pcshop.peripherals.repository;
 
-import com.springsecurity.pcshop.Peripherals.Entity.Product;
+import com.springsecurity.pcshop.peripherals.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product,Long> {
