@@ -1,4 +1,4 @@
-package com.springsecurity.pcshop.Peripherals.Entity;
+package com.springsecurity.pcshop.peripherals.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
