@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-
-
 @Entity
 @Table(name = "gpu")
 public class GPU extends Product {

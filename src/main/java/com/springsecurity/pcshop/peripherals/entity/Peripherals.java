@@ -1,4 +1,4 @@
-package com.springsecurity.pcshop;
+package com.springsecurity.pcshop.peripherals.entity;
 
 import com.springsecurity.pcshop.peripherals.entity.*;
 import jakarta.persistence.*;
